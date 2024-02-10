@@ -21,6 +21,7 @@ class Hero extends Phaser.Physics.Arcade.Sprite {
             swing: new SwingState(),
             dash: new DashState(),
             hurt: new HurtState(),
+            circular: new CircularState()
         }, [scene, this])   // pass these as arguments to maintain scene/object context in the FSM
     }
 }
